@@ -38,6 +38,7 @@ const renderUsers = (filtersObject, usersArray) => {
     usersListContainer.innerHTML = users;
     mainContainer.innerHTML = '';
     mainContainer.appendChild(usersListContainer);
+    window.location.hash = '';
 }
 
 const createUser = (user) => {

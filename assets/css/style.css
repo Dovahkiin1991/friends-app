@@ -116,11 +116,16 @@ body {
 }
 
 @media (max-width: 991px) {
+    .header {
+        font-size: 14px;
+    }
+
     .header__logo {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        font-size: 1.2em;
     }
 }
 
@@ -189,6 +194,9 @@ body {
 
     .main__sidebar--inner {
         position: fixed;
+        top: 74px;
+        bottom: 0;
+        overflow-y: auto;
         width: 280px;
     }
 }
